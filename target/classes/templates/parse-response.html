@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Data Parsed</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+	<table border="1">
+		<tr>
+			<td>Title</td>
+			<td th:text="${parsedData.title}"></td>
+		</tr>
+		<tr>
+			<td>Version</td>
+			<td th:text="${parsedData.version}"></td>
+		</tr>
+		<tr>
+			<td>Doc Version</td>
+			<td th:text="${parsedData.docVersion}"></td>
+		</tr>
+		<tr>
+			<td>H1 Count</td>
+			<td th:text="${parsedData.h1Tags}"></td>
+		</tr>
+		<tr>
+			<td>H2 Count</td>
+			<td th:text="${parsedData.h2Tags}"></td>
+		</tr>
+		<tr>
+			<td>H3 Count</td>
+			<td th:text="${parsedData.h3Tags}"></td>
+		</tr>
+		<tr>
+			<td>H4 Count</td>
+			<td th:text="${parsedData.h4Tags}"></td>
+		</tr>
+		<tr>
+			<td>H5 Count</td>
+			<td th:text="${parsedData.h5Tags}"></td>
+		</tr>
+		<tr>
+			<td>H6 Count</td>
+			<td th:text="${parsedData.h6Tags}"></td>
+		</tr>
+		<tr>
+			<td>Document Type</td>
+			<td th:text="${parsedData.docType}"></td>
+		</tr>
+		
+		<tr>
+			<td>Total HREF Count</td>
+			<td th:text="${parsedData.hrefLinkCount}"></td>
+		</tr>
+		<tr>
+			<td> Total Internal HREF Count</td>
+			<td th:text="${parsedData.internalHrefLinkCount}"></td>
+		</tr>
+		<tr>
+			<td> Total External HREF Count</td>
+			<td th:text="${parsedData.hrefLinkCount - parsedData.internalHrefLinkCount}"></td>
+		</tr>
+		<tr>
+			<td>Total Media Count</td>
+			<td th:text="${parsedData.mediaLinkCount}"></td>
+		</tr>
+		<tr>
+			<td>Total Internal Media Count</td>
+			<td th:text="${parsedData.internalMediaLinkCount}"></td>
+		</tr>
+		<tr>
+			<td> Total External HREF Count</td>
+			<td th:text="${parsedData.mediaLinkCount - parsedData.internalMediaLinkCount}"></td>
+		</tr>
+		<tr>
+			<td>Does the page contain Login Form?</td>
+			<td th:text="${parsedData.hasLoginForm}"></td>
+		</tr>
+		
+	</table>
+</body>
+</html>

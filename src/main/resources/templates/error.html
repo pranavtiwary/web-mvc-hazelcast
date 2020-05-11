@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Server Error</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+There is problem at server, Please try again later.
+<br></br>
+<p th:text="'Error : ' + ${errorMsg} + '!'" />
+</body>
+</html>

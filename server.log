@@ -1,0 +1,1478 @@
+2018-02-25 11:38:02,720 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 36787 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:38:02,722 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:38:03,054 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1381037: startup date [Sun Feb 25 11:38:03 IST 2018]; root of context hierarchy
+2018-02-25 11:38:03,094 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 11:38:04,406 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:38:04,418 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:38:04,419 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:38:04,490 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:38:04,491 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1437 ms
+2018-02-25 11:38:04,631 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:38:04,635 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:38:04,636 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:38:04,636 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:38:04,637 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:38:04,677 WARN  [restartedMain] [AbstractApplicationContext] [line : 551 ] :  -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.web.mvc.service.IEmployeeService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-02-25 11:38:04,679 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Stopping service [Tomcat]
+2018-02-25 11:38:04,695 INFO  [restartedMain] [AutoConfigurationReportLoggingInitializer] [line : 101 ] :  -
+				
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-25 11:38:04,789 ERROR [restartedMain] [LoggingFailureAnalysisReporter] [line : 42 ] :  -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.web.mvc.controller.EmployeeController required a bean of type 'com.web.mvc.service.IEmployeeService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.web.mvc.service.IEmployeeService' in your configuration.
+
+2018-02-25 11:38:30,471 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 37051 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:38:30,473 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:38:30,732 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:38:30 IST 2018]; root of context hierarchy
+2018-02-25 11:38:30,765 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 11:38:31,989 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:38:31,999 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:38:32,000 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:38:32,073 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:38:32,073 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1341 ms
+2018-02-25 11:38:32,210 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:38:32,214 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:38:32,214 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:38:32,215 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:38:32,215 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:38:32,494 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:38:30 IST 2018]; root of context hierarchy
+2018-02-25 11:38:32,500 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:38:32,560 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:38:32,564 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:38:32,566 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:38:32,566 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:38:32,593 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:38:32,594 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:38:32,610 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:38:32,628 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:38:33,097 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:38:33,151 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:38:33,173 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:38:33,183 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:38:33,216 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:38:33,236 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:38:33,243 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 3.133 seconds (JVM running for 3.641)
+2018-02-25 11:38:40,189 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:38:40,190 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:38:40,208 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-02-25 11:38:40,248 INFO  [http-nio-8080-exec-1] [TemplateEngine] [line : 825 ] :  -
+				[THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-02-25 11:38:40,284 INFO  [http-nio-8080-exec-1] [AbstractTemplateResolver] [line : 99 ] :  -
+				[THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-02-25 11:38:40,285 INFO  [http-nio-8080-exec-1] [AbstractTemplateResolver] [line : 110 ] :  -
+				[THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-02-25 11:38:40,285 INFO  [http-nio-8080-exec-1] [AbstractMessageResolver] [line : 72 ] :  -
+				[THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-02-25 11:38:40,285 INFO  [http-nio-8080-exec-1] [AbstractMessageResolver] [line : 78 ] :  -
+				[THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-02-25 11:38:40,289 INFO  [http-nio-8080-exec-1] [ConfigurationPrinterHelper] [line : 123 ] :  -
+				[THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-02-25 11:38:40,289 INFO  [http-nio-8080-exec-1] [TemplateEngine] [line : 838 ] :  -
+				[THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-02-25 11:38:40,479 ERROR [http-nio-8080-exec-1] [TemplateEngine] [line : 1085 ] :  -
+				[THYMELEAF][http-nio-8080-exec-1] Exception processing template "home": Error during execution of processor 'org.thymeleaf.spring4.processor.attr.SpringInputGeneralFieldAttrProcessor' (home:26)
+2018-02-25 11:38:40,482 ERROR [http-nio-8080-exec-1] [DirectJDKLog] [line : 181 ] :  -
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring4.processor.attr.SpringInputGeneralFieldAttrProcessor' (home:26)] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'parsingRequest' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:144)
+	at org.thymeleaf.spring4.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:401)
+	at org.thymeleaf.spring4.util.FieldUtils.getBindStatus(FieldUtils.java:328)
+	at org.thymeleaf.spring4.util.FieldUtils.getBindStatus(FieldUtils.java:294)
+	at org.thymeleaf.spring4.processor.attr.AbstractSpringFieldAttrProcessor.processAttribute(AbstractSpringFieldAttrProcessor.java:98)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-25 11:39:30,655 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 11:39:30,656 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:38:30 IST 2018]; root of context hierarchy
+2018-02-25 11:39:30,658 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:39:37,068 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 37758 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:39:37,070 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:39:37,353 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:39:37 IST 2018]; root of context hierarchy
+2018-02-25 11:39:37,385 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 11:39:38,725 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:39:38,743 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:39:38,744 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:39:38,829 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:39:38,829 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1476 ms
+2018-02-25 11:39:38,987 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:39:38,991 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:39:38,992 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:39:38,992 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:39:38,992 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:39:39,409 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:39:37 IST 2018]; root of context hierarchy
+2018-02-25 11:39:39,418 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:39:39,483 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:39:39,487 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:39:39,489 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:39:39,490 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:39:39,518 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:39:39,519 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:39:39,540 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:39:39,565 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:39:40,031 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:39:40,080 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:39:40,101 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:39:40,113 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:39:40,140 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:39:40,155 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:39:40,161 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 3.459 seconds (JVM running for 4.017)
+2018-02-25 11:39:46,504 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:39:46,504 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:39:46,522 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-02-25 11:39:46,557 INFO  [http-nio-8080-exec-1] [TemplateEngine] [line : 825 ] :  -
+				[THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-02-25 11:39:46,593 INFO  [http-nio-8080-exec-1] [AbstractTemplateResolver] [line : 99 ] :  -
+				[THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-02-25 11:39:46,594 INFO  [http-nio-8080-exec-1] [AbstractTemplateResolver] [line : 110 ] :  -
+				[THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-02-25 11:39:46,594 INFO  [http-nio-8080-exec-1] [AbstractMessageResolver] [line : 72 ] :  -
+				[THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-02-25 11:39:46,594 INFO  [http-nio-8080-exec-1] [AbstractMessageResolver] [line : 78 ] :  -
+				[THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-02-25 11:39:46,597 INFO  [http-nio-8080-exec-1] [ConfigurationPrinterHelper] [line : 123 ] :  -
+				[THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-02-25 11:39:46,598 INFO  [http-nio-8080-exec-1] [TemplateEngine] [line : 838 ] :  -
+				[THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-02-25 11:41:02,229 INFO  [Thread-7] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:39:37 IST 2018]; root of context hierarchy
+2018-02-25 11:41:02,231 WARN  [Thread-7] [DisposableBeanAdapter] [line : 281 ] :  -
+				Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-02-25 11:41:02,231 INFO  [Thread-7] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:41:02,465 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 37758 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:41:02,465 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:41:02,467 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11a72d93: startup date [Sun Feb 25 11:41:02 IST 2018]; root of context hierarchy
+2018-02-25 11:41:02,849 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:41:02,850 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:41:02,850 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:41:02,859 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:41:02,860 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 393 ms
+2018-02-25 11:41:02,885 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:41:02,887 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:41:02,887 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:41:02,887 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:41:02,887 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:41:02,976 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11a72d93: startup date [Sun Feb 25 11:41:02 IST 2018]; root of context hierarchy
+2018-02-25 11:41:02,978 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:41:02,984 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:41:02,985 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:41:02,988 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:41:02,989 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:41:02,997 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:41:02,997 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:41:03,004 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:41:03,009 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:41:03,066 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:41:03,144 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:41:03,153 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:41:03,155 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:41:03,156 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:41:03,161 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:41:03,163 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 0.748 seconds (JVM running for 87.021)
+2018-02-25 11:41:04,327 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 11:41:04,327 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11a72d93: startup date [Sun Feb 25 11:41:02 IST 2018]; root of context hierarchy
+2018-02-25 11:41:04,329 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:42:38,949 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 39493 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:42:38,950 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:42:39,212 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:42:39 IST 2018]; root of context hierarchy
+2018-02-25 11:42:39,247 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 11:42:40,493 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:42:40,505 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:42:40,506 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:42:40,577 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:42:40,578 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1366 ms
+2018-02-25 11:42:40,739 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:42:40,745 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:42:40,746 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:42:40,746 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:42:40,746 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:42:41,050 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:42:39 IST 2018]; root of context hierarchy
+2018-02-25 11:42:41,059 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:42:41,119 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:42:41,123 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:42:41,125 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:42:41,126 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:42:41,144 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:42:41,154 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:42:41,155 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:42:41,173 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:42:41,194 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:42:41,678 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:42:41,731 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:42:41,754 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:42:41,764 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:42:41,793 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:42:41,811 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:42:41,817 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 3.248 seconds (JVM running for 4.042)
+2018-02-25 11:42:48,143 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:42:48,144 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:42:48,165 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-02-25 11:42:48,237 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=null, department=null, toString()=com.web.mvc.request.AddEmployeeRequest@1614d2d3]
+2018-02-25 11:44:15,991 INFO  [Thread-7] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:42:39 IST 2018]; root of context hierarchy
+2018-02-25 11:44:15,992 WARN  [Thread-7] [DisposableBeanAdapter] [line : 281 ] :  -
+				Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-02-25 11:44:15,993 INFO  [Thread-7] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:44:16,240 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 39493 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:44:16,240 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:44:16,242 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@192e988e: startup date [Sun Feb 25 11:44:16 IST 2018]; root of context hierarchy
+2018-02-25 11:44:16,518 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:44:16,518 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:44:16,519 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:44:16,525 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:44:16,525 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 283 ms
+2018-02-25 11:44:16,543 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:44:16,543 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:44:16,544 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:44:16,544 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:44:16,544 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:44:16,606 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@192e988e: startup date [Sun Feb 25 11:44:16 IST 2018]; root of context hierarchy
+2018-02-25 11:44:16,607 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:44:16,610 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:44:16,611 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:44:16,613 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:44:16,613 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:44:16,618 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:44:16,620 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:44:16,620 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:44:16,626 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:44:16,630 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:44:16,668 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:44:16,723 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:44:16,730 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:44:16,731 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:44:16,732 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:44:16,735 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:44:16,737 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 0.533 seconds (JVM running for 98.963)
+2018-02-25 11:44:17,438 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 11:44:17,438 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@192e988e: startup date [Sun Feb 25 11:44:16 IST 2018]; root of context hierarchy
+2018-02-25 11:44:17,441 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:44:39,294 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 40711 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:44:39,295 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:44:39,525 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:44:39 IST 2018]; root of context hierarchy
+2018-02-25 11:44:39,553 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 11:44:40,623 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:44:40,633 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:44:40,634 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:44:40,718 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:44:40,718 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1193 ms
+2018-02-25 11:44:40,853 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:44:40,857 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:44:40,857 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:44:40,858 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:44:40,858 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:44:41,118 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:44:39 IST 2018]; root of context hierarchy
+2018-02-25 11:44:41,125 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:44:41,182 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:44:41,185 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:44:41,188 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:44:41,189 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:44:41,202 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:44:41,210 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:44:41,210 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:44:41,223 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:44:41,244 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:44:41,626 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:44:41,671 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:44:41,691 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:44:41,701 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:44:41,724 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:44:41,743 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:44:41,749 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 2.79 seconds (JVM running for 3.565)
+2018-02-25 11:44:53,717 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:44:53,717 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:44:53,734 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-02-25 11:44:53,798 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=null, department=null, toString()=com.web.mvc.request.AddEmployeeRequest@5cd477bb]
+2018-02-25 11:44:53,799 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=1, toString()=Response [isSuccessfull=true, message=success]]
+2018-02-25 11:46:05,847 INFO  [Thread-7] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e607cd0: startup date [Sun Feb 25 11:44:39 IST 2018]; root of context hierarchy
+2018-02-25 11:46:05,849 WARN  [Thread-7] [DisposableBeanAdapter] [line : 281 ] :  -
+				Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-02-25 11:46:05,850 INFO  [Thread-7] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:46:06,085 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 40711 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:46:06,086 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:46:06,088 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3adbae44: startup date [Sun Feb 25 11:46:06 IST 2018]; root of context hierarchy
+2018-02-25 11:46:06,367 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:46:06,367 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:46:06,368 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:46:06,376 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:46:06,376 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 288 ms
+2018-02-25 11:46:06,399 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:46:06,400 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:46:06,400 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:46:06,400 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:46:06,401 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:46:06,472 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3adbae44: startup date [Sun Feb 25 11:46:06 IST 2018]; root of context hierarchy
+2018-02-25 11:46:06,475 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:46:06,479 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:46:06,479 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:46:06,482 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:46:06,483 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:46:06,490 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:46:06,493 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:46:06,493 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:46:06,499 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:46:06,504 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:46:06,538 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:46:06,593 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:46:06,602 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:46:06,602 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:46:06,603 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:46:06,606 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:46:06,608 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 0.567 seconds (JVM running for 88.424)
+2018-02-25 11:46:09,800 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:46:09,800 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:46:09,804 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2018-02-25 11:46:09,811 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=null, department=null]
+2018-02-25 11:46:09,812 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=1, toString()=Response [isSuccessfull=true, message=success]]
+2018-02-25 11:47:04,490 INFO  [Thread-11] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3adbae44: startup date [Sun Feb 25 11:46:06 IST 2018]; root of context hierarchy
+2018-02-25 11:47:04,491 WARN  [Thread-11] [DisposableBeanAdapter] [line : 281 ] :  -
+				Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-02-25 11:47:04,492 INFO  [Thread-11] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:47:05,012 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 40711 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:47:05,012 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:47:05,014 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28aba92d: startup date [Sun Feb 25 11:47:05 IST 2018]; root of context hierarchy
+2018-02-25 11:47:05,257 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:47:05,257 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:47:05,258 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:47:05,269 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:47:05,269 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 255 ms
+2018-02-25 11:47:05,290 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:47:05,291 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:47:05,292 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:47:05,292 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:47:05,292 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:47:05,357 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28aba92d: startup date [Sun Feb 25 11:47:05 IST 2018]; root of context hierarchy
+2018-02-25 11:47:05,360 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:47:05,362 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST],consumes=[application/json]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.parse(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:47:05,363 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:47:05,364 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:47:05,365 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:47:05,369 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:47:05,371 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:47:05,372 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:47:05,377 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:47:05,381 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:47:05,414 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:47:05,442 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:47:05,447 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:47:05,448 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:47:05,448 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:47:05,452 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:47:05,454 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 0.74 seconds (JVM running for 147.286)
+2018-02-25 11:47:07,630 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:47:07,630 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:47:07,632 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-02-25 11:47:07,637 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=null, department=null]
+2018-02-25 11:47:07,637 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=1, toString()=Response [isSuccessfull=true, message=success]]
+2018-02-25 11:47:25,006 INFO  [Thread-18] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28aba92d: startup date [Sun Feb 25 11:47:05 IST 2018]; root of context hierarchy
+2018-02-25 11:47:25,007 WARN  [Thread-18] [DisposableBeanAdapter] [line : 281 ] :  -
+				Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-02-25 11:47:25,008 INFO  [Thread-18] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:47:25,231 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 40711 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:47:25,231 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:47:25,233 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b24d949: startup date [Sun Feb 25 11:47:25 IST 2018]; root of context hierarchy
+2018-02-25 11:47:25,457 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:47:25,458 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:47:25,458 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:47:25,465 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:47:25,466 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 233 ms
+2018-02-25 11:47:25,483 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:47:25,484 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:47:25,485 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:47:25,485 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:47:25,485 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:47:25,549 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b24d949: startup date [Sun Feb 25 11:47:25 IST 2018]; root of context hierarchy
+2018-02-25 11:47:25,551 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:47:25,554 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST],consumes=[application/json]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.addEmployee(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:47:25,554 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:47:25,556 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:47:25,556 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:47:25,560 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:47:25,561 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:47:25,562 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:47:25,566 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:47:25,569 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:47:25,604 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:47:25,633 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:47:25,639 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:47:25,639 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:47:25,640 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:47:25,642 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:47:25,644 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 0.442 seconds (JVM running for 167.48)
+2018-02-25 11:48:03,304 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 11:48:03,304 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b24d949: startup date [Sun Feb 25 11:47:25 IST 2018]; root of context hierarchy
+2018-02-25 11:48:03,307 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 11:48:15,093 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 42753 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 11:48:15,095 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 11:48:15,373 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9803b76: startup date [Sun Feb 25 11:48:15 IST 2018]; root of context hierarchy
+2018-02-25 11:48:15,404 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 11:48:16,717 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 11:48:16,727 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 11:48:16,729 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 11:48:16,817 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 11:48:16,817 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1444 ms
+2018-02-25 11:48:16,994 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 11:48:16,997 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 11:48:16,998 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 11:48:16,998 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 11:48:16,998 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 11:48:17,328 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9803b76: startup date [Sun Feb 25 11:48:15 IST 2018]; root of context hierarchy
+2018-02-25 11:48:17,336 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 11:48:17,417 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST],consumes=[application/json]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.addEmployee(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 11:48:17,422 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 11:48:17,425 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 11:48:17,426 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 11:48:17,450 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 11:48:17,463 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:48:17,463 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:48:17,484 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 11:48:17,515 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 11:48:18,031 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 11:48:18,088 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 11:48:18,111 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:48:18,123 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 11:48:18,153 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 11:48:18,171 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 11:48:18,178 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 3.488 seconds (JVM running for 4.007)
+2018-02-25 11:48:20,666 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 11:48:20,666 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 11:48:20,685 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-02-25 11:48:20,797 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=ayush, department=IT-singapore]
+2018-02-25 11:48:20,797 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=1, toString()=Response [isSuccessfull=true, message=success]]
+2018-02-25 11:48:31,294 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 11:48:31,294 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9803b76: startup date [Sun Feb 25 11:48:15 IST 2018]; root of context hierarchy
+2018-02-25 11:48:31,297 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 12:03:18,035 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 51645 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 12:03:18,037 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 12:03:18,275 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@487424a1: startup date [Sun Feb 25 12:03:18 IST 2018]; root of context hierarchy
+2018-02-25 12:03:18,319 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 12:03:19,761 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 12:03:19,773 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 12:03:19,775 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 12:03:19,902 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 12:03:19,902 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1627 ms
+2018-02-25 12:03:20,073 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 12:03:20,077 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 12:03:20,078 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 12:03:20,078 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 12:03:20,078 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 12:03:20,120 WARN  [restartedMain] [AbstractApplicationContext] [line : 551 ] :  -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hazelCastConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hazelcast.public.ipaddress' in value "${hazelcast.public.ipaddress}"
+2018-02-25 12:03:20,122 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Stopping service [Tomcat]
+2018-02-25 12:03:20,137 INFO  [restartedMain] [AutoConfigurationReportLoggingInitializer] [line : 101 ] :  -
+				
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-25 12:03:20,143 ERROR [restartedMain] [SpringApplication] [line : 771 ] :  -
+				Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hazelCastConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hazelcast.public.ipaddress' in value "${hazelcast.public.ipaddress}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.web.mvc.Application.main(Application.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'hazelcast.public.ipaddress' in value "${hazelcast.public.ipaddress}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:831)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	... 22 common frames omitted
+2018-02-25 12:03:50,220 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 51950 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 12:03:50,221 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 12:03:50,470 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71fbdf94: startup date [Sun Feb 25 12:03:50 IST 2018]; root of context hierarchy
+2018-02-25 12:03:50,509 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 12:03:51,830 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 12:03:51,840 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 12:03:51,841 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 12:03:51,964 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 12:03:51,964 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1494 ms
+2018-02-25 12:03:52,146 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 12:03:52,150 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 12:03:52,151 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 12:03:52,152 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 12:03:52,152 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 12:03:52,218 INFO  [restartedMain] [HazelCastConfiguration] [line : 43 ] :  -
+				Configurtion for hazelcast Started
+2018-02-25 12:03:52,250 INFO  [restartedMain] [HazelCastConfiguration] [line : 66 ] :  -
+				Configurtion for hazelcast : Config{groupConfig=GroupConfig [name=dev, password=********], properties={hazelcast.initial.min.cluster.size=1, hazelcast.logging.type=slf4j}, networkConfig=NetworkConfig{publicAddress='null', port=5701, portCount=100, portAutoIncrement=true, join=JoinConfig{multicastConfig=MulticastConfig [enabled=false, multicastGroup=224.2.2.3, multicastPort=54327, multicastTimeToLive=32, multicastTimeoutSeconds=2, trustedInterfaces=[], loopbackModeEnabled=false], tcpIpConfig=TcpIpConfig [enabled=true, connectionTimeoutSeconds=5, members=[localhost], requiredMember=null], awsConfig=AwsConfig{enabled=false, region='us-east-1', securityGroupName='null', tagKey='null', tagValue='null', hostHeader='ec2.amazonaws.com', iamRole='null', connectionTimeoutSeconds=5}, discoveryProvidersConfig=com.hazelcast.config.DiscoveryConfig@63ca4c51}, interfaces=InterfacesConfig{enabled=false, interfaces=[]}, sslConfig=null, socketInterceptorConfig=null, symmetricEncryptionConfig=null}, mapConfigs={LOCK_MAP=MapConfig{name='LOCK_MAP'', inMemoryFormat=BINARY', backupCount=1, asyncBackupCount=0, timeToLiveSeconds=0, maxIdleSeconds=0, evictionPolicy='NONE', mapEvictionPolicy='null', evictionPercentage=25, minEvictionCheckMillis=100, maxSizeConfig=MaxSizeConfig{maxSizePolicy='PER_NODE', size=2147483647}, readBackupData=false, hotRestart=HotRestartConfig{enabled=false, fsync=false}, nearCacheConfig=NearCacheConfig{timeToLiveSeconds=0, maxSize=2147483647, evictionPolicy='LRU', maxIdleSeconds=0, invalidateOnChange=true, inMemoryFormat=BINARY, cacheLocalEntries=false, localUpdatePolicy=INVALIDATE, evictionConfig=EvictionConfig{size=10000, maxSizePolicy=ENTRY_COUNT, evictionPolicy=LRU, comparatorClassName=null, comparator=null, readOnly=null}}, mapStoreConfig=MapStoreConfig{enabled=false, className='null', factoryClassName='null', writeDelaySeconds=0, writeBatchSize=1, implementation=null, factoryImplementation=null, properties={}, readOnly=null, initialLoadMode=LAZY, writeCoalescing=true}, mergePolicyConfig='com.hazelcast.map.merge.PutIfAbsentMapMergePolicy', wanReplicationRef=null, entryListenerConfigs=null, mapIndexConfigs=null, mapAttributeConfigs=null, quorumName=null, queryCacheConfigs=null, cacheDeserializedValues=INDEX_ONLY}}, topicConfigs={}, reliableTopicConfigs={}, queueConfigs={}, multiMapConfigs={}, executorConfigs={}, semaphoreConfigs={}, ringbufferConfigs={}, wanReplicationConfigs={}, listenerConfigs=[], partitionGroupConfig=PartitionGroupConfig{enabled=false, groupType=PER_MEMBER, memberGroupConfigs=[]}, managementCenterConfig=ManagementCenterConfig{enabled=false, url='null', updateInterval=3}, securityConfig=SecurityConfig{enabled=false, memberCredentialsConfig=CredentialsFactoryConfig{className='null', implementation=null, properties={}}, memberLoginModuleConfigs=[], clientLoginModuleConfigs=[], clientPolicyConfig=PermissionPolicyConfig{className='null', implementation=null, properties={}}, clientPermissionConfigs=[]}, liteMember=false}, is done
+2018-02-25 12:03:52,264 INFO  [restartedMain] [HazelCastConfiguration] [line : 79 ] :  -
+				Building Hazel cast instance
+2018-02-25 12:03:52,311 WARN  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 66 ] :  -
+				[LOCAL] [dev] [3.7.8] You configured your member address as host name. Please be aware of that your dns can be spoofed. Make sure that your dns configurations are correct.
+2018-02-25 12:03:52,311 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Resolving domain name 'localhost' to address(es): [127.0.0.1, 0:0:0:0:0:0:0:1]
+2018-02-25 12:03:52,312 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]
+2018-02-25 12:03:52,313 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Prefer IPv4 stack is true.
+2018-02-25 12:03:52,336 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Picked [localhost]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2018-02-25 12:03:52,345 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Hazelcast 3.7.8 (20170525 - 4e820fa) starting at [localhost]:5701
+2018-02-25 12:03:52,345 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+2018-02-25 12:03:52,345 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Configured Hazelcast Serialization version : 1
+2018-02-25 12:03:52,480 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Backpressure is disabled
+2018-02-25 12:03:52,932 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Creating TcpIpJoiner
+2018-02-25 12:03:53,034 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Starting 8 partition threads
+2018-02-25 12:03:53,035 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Starting 5 generic threads (1 dedicated for priority tasks)
+2018-02-25 12:03:53,039 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is STARTING
+2018-02-25 12:03:53,040 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+2018-02-25 12:03:53,060 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Connecting to localhost/127.0.0.1:5703, timeout: 0, bind-any: true
+2018-02-25 12:03:53,060 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Connecting to localhost/127.0.0.1:5702, timeout: 0, bind-any: true
+2018-02-25 12:03:53,069 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Could not connect to: localhost/127.0.0.1:5703. Reason: SocketException[Connection refused to address localhost/127.0.0.1:5703]
+2018-02-25 12:03:53,069 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5703 is added to the blacklist.
+2018-02-25 12:03:53,069 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Could not connect to: localhost/127.0.0.1:5702. Reason: SocketException[Connection refused to address localhost/127.0.0.1:5702]
+2018-02-25 12:03:53,069 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5702 is added to the blacklist.
+2018-02-25 12:03:54,061 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] 
+
+
+Members [1] {
+	Member [localhost]:5701 - 8de2b82f-8e2f-4b70-a776-0648d36ddb09 this
+}
+
+2018-02-25 12:03:54,086 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is STARTED
+2018-02-25 12:03:54,086 INFO  [restartedMain] [HazelCastConfiguration] [line : 83 ] :  -
+				Hazel cast instance : HazelcastInstance{name='_hzInstance_1_dev', node=[localhost]:5701}
+2018-02-25 12:03:54,357 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71fbdf94: startup date [Sun Feb 25 12:03:50 IST 2018]; root of context hierarchy
+2018-02-25 12:03:54,365 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 12:03:54,423 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST],consumes=[application/json]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.addEmployee(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 12:03:54,427 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 12:03:54,429 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 12:03:54,429 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 12:03:54,447 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 12:03:54,457 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:03:54,457 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:03:54,474 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 12:03:54,502 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:03:55,010 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 12:03:55,059 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 12:03:55,078 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 12:03:55,089 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 12:03:55,090 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 12:03:55,106 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 12:03:55,111 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 5.276 seconds (JVM running for 5.875)
+2018-02-25 12:04:01,428 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 12:04:01,428 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71fbdf94: startup date [Sun Feb 25 12:03:50 IST 2018]; root of context hierarchy
+2018-02-25 12:04:01,431 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 12:04:01,433 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is SHUTTING_DOWN
+2018-02-25 12:04:01,433 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutting down connection manager...
+2018-02-25 12:04:01,436 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutting down node engine...
+2018-02-25 12:04:01,440 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Destroying node NodeExtension.
+2018-02-25 12:04:01,441 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Hazelcast Shutdown is completed in 8 ms.
+2018-02-25 12:04:01,441 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is SHUTDOWN
+2018-02-25 12:08:17,368 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 54584 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 12:08:17,369 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 12:08:17,607 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f0ff27: startup date [Sun Feb 25 12:08:17 IST 2018]; root of context hierarchy
+2018-02-25 12:08:17,648 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 12:08:18,963 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 12:08:18,976 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 12:08:18,977 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 12:08:19,108 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 12:08:19,108 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1501 ms
+2018-02-25 12:08:19,272 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 12:08:19,276 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 12:08:19,277 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 12:08:19,277 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 12:08:19,277 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 12:08:19,331 INFO  [restartedMain] [HazelCastConfiguration] [line : 43 ] :  -
+				Configurtion for hazelcast Started
+2018-02-25 12:08:19,363 INFO  [restartedMain] [HazelCastConfiguration] [line : 66 ] :  -
+				Configurtion for hazelcast : Config{groupConfig=GroupConfig [name=dev, password=********], properties={hazelcast.initial.min.cluster.size=1, hazelcast.logging.type=slf4j}, networkConfig=NetworkConfig{publicAddress='null', port=5701, portCount=100, portAutoIncrement=true, join=JoinConfig{multicastConfig=MulticastConfig [enabled=false, multicastGroup=224.2.2.3, multicastPort=54327, multicastTimeToLive=32, multicastTimeoutSeconds=2, trustedInterfaces=[], loopbackModeEnabled=false], tcpIpConfig=TcpIpConfig [enabled=true, connectionTimeoutSeconds=5, members=[localhost], requiredMember=null], awsConfig=AwsConfig{enabled=false, region='us-east-1', securityGroupName='null', tagKey='null', tagValue='null', hostHeader='ec2.amazonaws.com', iamRole='null', connectionTimeoutSeconds=5}, discoveryProvidersConfig=com.hazelcast.config.DiscoveryConfig@2a7ad8c3}, interfaces=InterfacesConfig{enabled=false, interfaces=[]}, sslConfig=null, socketInterceptorConfig=null, symmetricEncryptionConfig=null}, mapConfigs={LOCK_MAP=MapConfig{name='LOCK_MAP'', inMemoryFormat=BINARY', backupCount=1, asyncBackupCount=0, timeToLiveSeconds=0, maxIdleSeconds=0, evictionPolicy='NONE', mapEvictionPolicy='null', evictionPercentage=25, minEvictionCheckMillis=100, maxSizeConfig=MaxSizeConfig{maxSizePolicy='PER_NODE', size=2147483647}, readBackupData=false, hotRestart=HotRestartConfig{enabled=false, fsync=false}, nearCacheConfig=NearCacheConfig{timeToLiveSeconds=0, maxSize=2147483647, evictionPolicy='LRU', maxIdleSeconds=0, invalidateOnChange=true, inMemoryFormat=BINARY, cacheLocalEntries=false, localUpdatePolicy=INVALIDATE, evictionConfig=EvictionConfig{size=10000, maxSizePolicy=ENTRY_COUNT, evictionPolicy=LRU, comparatorClassName=null, comparator=null, readOnly=null}}, mapStoreConfig=MapStoreConfig{enabled=false, className='null', factoryClassName='null', writeDelaySeconds=0, writeBatchSize=1, implementation=null, factoryImplementation=null, properties={}, readOnly=null, initialLoadMode=LAZY, writeCoalescing=true}, mergePolicyConfig='com.hazelcast.map.merge.PutIfAbsentMapMergePolicy', wanReplicationRef=null, entryListenerConfigs=null, mapIndexConfigs=null, mapAttributeConfigs=null, quorumName=null, queryCacheConfigs=null, cacheDeserializedValues=INDEX_ONLY}}, topicConfigs={}, reliableTopicConfigs={}, queueConfigs={}, multiMapConfigs={}, executorConfigs={}, semaphoreConfigs={}, ringbufferConfigs={}, wanReplicationConfigs={}, listenerConfigs=[], partitionGroupConfig=PartitionGroupConfig{enabled=false, groupType=PER_MEMBER, memberGroupConfigs=[]}, managementCenterConfig=ManagementCenterConfig{enabled=false, url='null', updateInterval=3}, securityConfig=SecurityConfig{enabled=false, memberCredentialsConfig=CredentialsFactoryConfig{className='null', implementation=null, properties={}}, memberLoginModuleConfigs=[], clientLoginModuleConfigs=[], clientPolicyConfig=PermissionPolicyConfig{className='null', implementation=null, properties={}}, clientPermissionConfigs=[]}, liteMember=false}, is done
+2018-02-25 12:08:19,379 INFO  [restartedMain] [HazelCastConfiguration] [line : 79 ] :  -
+				Building Hazel cast instance
+2018-02-25 12:08:19,417 WARN  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 66 ] :  -
+				[LOCAL] [dev] [3.7.8] You configured your member address as host name. Please be aware of that your dns can be spoofed. Make sure that your dns configurations are correct.
+2018-02-25 12:08:19,417 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Resolving domain name 'localhost' to address(es): [127.0.0.1, 0:0:0:0:0:0:0:1]
+2018-02-25 12:08:19,418 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]
+2018-02-25 12:08:19,418 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Prefer IPv4 stack is true.
+2018-02-25 12:08:19,440 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Picked [localhost]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2018-02-25 12:08:19,448 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Hazelcast 3.7.8 (20170525 - 4e820fa) starting at [localhost]:5701
+2018-02-25 12:08:19,448 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+2018-02-25 12:08:19,448 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Configured Hazelcast Serialization version : 1
+2018-02-25 12:08:19,574 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Backpressure is disabled
+2018-02-25 12:08:20,009 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Creating TcpIpJoiner
+2018-02-25 12:08:20,116 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Starting 8 partition threads
+2018-02-25 12:08:20,117 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Starting 5 generic threads (1 dedicated for priority tasks)
+2018-02-25 12:08:20,122 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is STARTING
+2018-02-25 12:08:20,124 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+2018-02-25 12:08:20,149 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Connecting to localhost/127.0.0.1:5703, timeout: 0, bind-any: true
+2018-02-25 12:08:20,149 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Connecting to localhost/127.0.0.1:5702, timeout: 0, bind-any: true
+2018-02-25 12:08:20,157 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Could not connect to: localhost/127.0.0.1:5703. Reason: SocketException[Connection refused to address localhost/127.0.0.1:5703]
+2018-02-25 12:08:20,157 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5703 is added to the blacklist.
+2018-02-25 12:08:20,158 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Could not connect to: localhost/127.0.0.1:5702. Reason: SocketException[Connection refused to address localhost/127.0.0.1:5702]
+2018-02-25 12:08:20,158 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5702 is added to the blacklist.
+2018-02-25 12:08:21,147 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] 
+
+
+Members [1] {
+	Member [localhost]:5701 - 9c64b1ca-96f2-41a2-9968-4c1ee8ab20fc this
+}
+
+2018-02-25 12:08:21,170 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is STARTED
+2018-02-25 12:08:21,171 INFO  [restartedMain] [HazelCastConfiguration] [line : 83 ] :  -
+				Hazel cast instance : HazelcastInstance{name='_hzInstance_1_dev', node=[localhost]:5701}
+2018-02-25 12:08:21,447 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f0ff27: startup date [Sun Feb 25 12:08:17 IST 2018]; root of context hierarchy
+2018-02-25 12:08:21,455 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 12:08:21,516 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST],consumes=[application/json]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.addEmployee(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 12:08:21,519 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 12:08:21,521 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 12:08:21,521 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 12:08:21,542 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 12:08:21,550 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:08:21,551 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:08:21,570 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 12:08:21,613 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:08:22,030 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 12:08:22,079 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 12:08:22,098 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 12:08:22,109 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 12:08:22,110 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 12:08:22,127 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 12:08:22,131 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 5.083 seconds (JVM running for 5.905)
+2018-02-25 12:08:28,309 INFO  [http-nio-8080-exec-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-25 12:08:28,309 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 489 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-25 12:08:28,333 INFO  [http-nio-8080-exec-1] [FrameworkServlet] [line : 508 ] :  -
+				FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-02-25 12:08:28,471 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=ayush, department=IT-singapore]
+2018-02-25 12:08:28,480 INFO  [http-nio-8080-exec-1] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Initializing cluster partition table arrangement...
+2018-02-25 12:08:36,341 INFO  [http-nio-8080-exec-2] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=ayush, department=IT-singapore]
+2018-02-25 12:08:36,342 INFO  [http-nio-8080-exec-2] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=null, toString()=Response [isSuccessfull=false, message=allready in progress]]
+2018-02-25 12:08:43,111 INFO  [http-nio-8080-exec-3] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=ayush, department=IT-singapore]
+2018-02-25 12:08:43,112 INFO  [http-nio-8080-exec-3] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=null, toString()=Response [isSuccessfull=false, message=allready in progress]]
+2018-02-25 12:08:51,147 INFO  [http-nio-8080-exec-4] [EmployeeController] [line : 45 ] :  -
+				Got Request to add employee : AddEmployeeRequest [id=null, name=ayush, department=IT-singapore]
+2018-02-25 12:08:51,149 INFO  [http-nio-8080-exec-4] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=null, toString()=Response [isSuccessfull=false, message=allready in progress]]
+2018-02-25 12:10:08,493 INFO  [http-nio-8080-exec-1] [EmployeeController] [line : 51 ] :  -
+				Response to add employee : AddEmployeeResponse [employeeId=1, toString()=Response [isSuccessfull=true, message=success]]
+2018-02-25 12:10:21,595 INFO  [Thread-7] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f0ff27: startup date [Sun Feb 25 12:08:17 IST 2018]; root of context hierarchy
+2018-02-25 12:10:21,598 WARN  [Thread-7] [DisposableBeanAdapter] [line : 281 ] :  -
+				Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-02-25 12:10:21,599 INFO  [Thread-7] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 12:10:21,600 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is SHUTTING_DOWN
+2018-02-25 12:10:21,600 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutdown request of [localhost]:5701 is handled
+2018-02-25 12:10:21,607 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutting down connection manager...
+2018-02-25 12:10:21,609 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutting down node engine...
+2018-02-25 12:10:21,614 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Destroying node NodeExtension.
+2018-02-25 12:10:21,615 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Hazelcast Shutdown is completed in 15 ms.
+2018-02-25 12:10:21,616 INFO  [Thread-7] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is SHUTDOWN
+2018-02-25 12:11:08,977 INFO  [restartedMain] [StartupInfoLogger] [line : 48 ] :  -
+				Starting Application on IND-PUN-MAC-130.local with PID 56261 (/Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast/target/classes started by VUCLIP in /Volumes/HD2/EclipseWorkspace/vuclip-research/web-mvc-hazelcast)
+2018-02-25 12:11:08,978 INFO  [restartedMain] [SpringApplication] [line : 597 ] :  -
+				The following profiles are active: development
+2018-02-25 12:11:09,236 INFO  [restartedMain] [AbstractApplicationContext] [line : 583 ] :  -
+				Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e5ab804: startup date [Sun Feb 25 12:11:09 IST 2018]; root of context hierarchy
+2018-02-25 12:11:09,287 INFO  [background-preinit] [Version] [line : 30 ] :  -
+				HV000001: Hibernate Validator 5.3.5.Final
+2018-02-25 12:11:10,668 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 89 ] :  -
+				Tomcat initialized with port(s): 8080 (http)
+2018-02-25 12:11:10,682 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting service [Tomcat]
+2018-02-25 12:11:10,684 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-02-25 12:11:10,829 INFO  [localhost-startStop-1] [DirectJDKLog] [line : 179 ] :  -
+				Initializing Spring embedded WebApplicationContext
+2018-02-25 12:11:10,829 INFO  [localhost-startStop-1] [EmbeddedWebApplicationContext] [line : 276 ] :  -
+				Root WebApplicationContext: initialization completed in 1593 ms
+2018-02-25 12:11:11,002 INFO  [localhost-startStop-1] [ServletRegistrationBean] [line : 190 ] :  -
+				Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-25 12:11:11,006 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-25 12:11:11,006 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-25 12:11:11,007 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-25 12:11:11,007 INFO  [localhost-startStop-1] [AbstractFilterRegistrationBean] [line : 258 ] :  -
+				Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-25 12:11:11,068 INFO  [restartedMain] [HazelCastConfiguration] [line : 43 ] :  -
+				Configurtion for hazelcast Started
+2018-02-25 12:11:11,099 INFO  [restartedMain] [HazelCastConfiguration] [line : 66 ] :  -
+				Configurtion for hazelcast : Config{groupConfig=GroupConfig [name=dev, password=********], properties={hazelcast.initial.min.cluster.size=1, hazelcast.logging.type=slf4j}, networkConfig=NetworkConfig{publicAddress='null', port=5701, portCount=100, portAutoIncrement=true, join=JoinConfig{multicastConfig=MulticastConfig [enabled=false, multicastGroup=224.2.2.3, multicastPort=54327, multicastTimeToLive=32, multicastTimeoutSeconds=2, trustedInterfaces=[], loopbackModeEnabled=false], tcpIpConfig=TcpIpConfig [enabled=true, connectionTimeoutSeconds=5, members=[localhost], requiredMember=null], awsConfig=AwsConfig{enabled=false, region='us-east-1', securityGroupName='null', tagKey='null', tagValue='null', hostHeader='ec2.amazonaws.com', iamRole='null', connectionTimeoutSeconds=5}, discoveryProvidersConfig=com.hazelcast.config.DiscoveryConfig@1e49e82c}, interfaces=InterfacesConfig{enabled=false, interfaces=[]}, sslConfig=null, socketInterceptorConfig=null, symmetricEncryptionConfig=null}, mapConfigs={LOCK_MAP=MapConfig{name='LOCK_MAP'', inMemoryFormat=BINARY', backupCount=1, asyncBackupCount=0, timeToLiveSeconds=0, maxIdleSeconds=0, evictionPolicy='NONE', mapEvictionPolicy='null', evictionPercentage=25, minEvictionCheckMillis=100, maxSizeConfig=MaxSizeConfig{maxSizePolicy='PER_NODE', size=2147483647}, readBackupData=false, hotRestart=HotRestartConfig{enabled=false, fsync=false}, nearCacheConfig=NearCacheConfig{timeToLiveSeconds=0, maxSize=2147483647, evictionPolicy='LRU', maxIdleSeconds=0, invalidateOnChange=true, inMemoryFormat=BINARY, cacheLocalEntries=false, localUpdatePolicy=INVALIDATE, evictionConfig=EvictionConfig{size=10000, maxSizePolicy=ENTRY_COUNT, evictionPolicy=LRU, comparatorClassName=null, comparator=null, readOnly=null}}, mapStoreConfig=MapStoreConfig{enabled=false, className='null', factoryClassName='null', writeDelaySeconds=0, writeBatchSize=1, implementation=null, factoryImplementation=null, properties={}, readOnly=null, initialLoadMode=LAZY, writeCoalescing=true}, mergePolicyConfig='com.hazelcast.map.merge.PutIfAbsentMapMergePolicy', wanReplicationRef=null, entryListenerConfigs=null, mapIndexConfigs=null, mapAttributeConfigs=null, quorumName=null, queryCacheConfigs=null, cacheDeserializedValues=INDEX_ONLY}}, topicConfigs={}, reliableTopicConfigs={}, queueConfigs={}, multiMapConfigs={}, executorConfigs={}, semaphoreConfigs={}, ringbufferConfigs={}, wanReplicationConfigs={}, listenerConfigs=[], partitionGroupConfig=PartitionGroupConfig{enabled=false, groupType=PER_MEMBER, memberGroupConfigs=[]}, managementCenterConfig=ManagementCenterConfig{enabled=false, url='null', updateInterval=3}, securityConfig=SecurityConfig{enabled=false, memberCredentialsConfig=CredentialsFactoryConfig{className='null', implementation=null, properties={}}, memberLoginModuleConfigs=[], clientLoginModuleConfigs=[], clientPolicyConfig=PermissionPolicyConfig{className='null', implementation=null, properties={}}, clientPermissionConfigs=[]}, liteMember=false}, is done
+2018-02-25 12:11:11,115 INFO  [restartedMain] [HazelCastConfiguration] [line : 79 ] :  -
+				Building Hazel cast instance
+2018-02-25 12:11:11,154 WARN  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 66 ] :  -
+				[LOCAL] [dev] [3.7.8] You configured your member address as host name. Please be aware of that your dns can be spoofed. Make sure that your dns configurations are correct.
+2018-02-25 12:11:11,155 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Resolving domain name 'localhost' to address(es): [127.0.0.1, 0:0:0:0:0:0:0:1]
+2018-02-25 12:11:11,155 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Interfaces is disabled, trying to pick one address from TCP-IP config addresses: [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]
+2018-02-25 12:11:11,156 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Prefer IPv4 stack is true.
+2018-02-25 12:11:11,178 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[LOCAL] [dev] [3.7.8] Picked [localhost]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2018-02-25 12:11:11,185 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Hazelcast 3.7.8 (20170525 - 4e820fa) starting at [localhost]:5701
+2018-02-25 12:11:11,186 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+2018-02-25 12:11:11,186 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Configured Hazelcast Serialization version : 1
+2018-02-25 12:11:11,317 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Backpressure is disabled
+2018-02-25 12:11:11,763 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Creating TcpIpJoiner
+2018-02-25 12:11:11,862 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Starting 8 partition threads
+2018-02-25 12:11:11,863 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Starting 5 generic threads (1 dedicated for priority tasks)
+2018-02-25 12:11:11,867 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is STARTING
+2018-02-25 12:11:11,868 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+2018-02-25 12:11:11,891 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Connecting to localhost/127.0.0.1:5702, timeout: 0, bind-any: true
+2018-02-25 12:11:11,891 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Connecting to localhost/127.0.0.1:5703, timeout: 0, bind-any: true
+2018-02-25 12:11:11,900 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Could not connect to: localhost/127.0.0.1:5702. Reason: SocketException[Connection refused to address localhost/127.0.0.1:5702]
+2018-02-25 12:11:11,900 INFO  [hz._hzInstance_1_dev.cached.thread-3] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5702 is added to the blacklist.
+2018-02-25 12:11:11,900 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Could not connect to: localhost/127.0.0.1:5703. Reason: SocketException[Connection refused to address localhost/127.0.0.1:5703]
+2018-02-25 12:11:11,901 INFO  [hz._hzInstance_1_dev.cached.thread-2] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5703 is added to the blacklist.
+2018-02-25 12:11:12,892 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] 
+
+
+Members [1] {
+	Member [localhost]:5701 - e89fb61f-e092-43c7-8a8d-96bb20ce47af this
+}
+
+2018-02-25 12:11:12,920 INFO  [restartedMain] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is STARTED
+2018-02-25 12:11:12,921 INFO  [restartedMain] [HazelCastConfiguration] [line : 83 ] :  -
+				Hazel cast instance : HazelcastInstance{name='_hzInstance_1_dev', node=[localhost]:5701}
+2018-02-25 12:11:13,182 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 534 ] :  -
+				Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e5ab804: startup date [Sun Feb 25 12:11:09 IST 2018]; root of context hierarchy
+2018-02-25 12:11:13,190 INFO  [restartedMain] [RequestMappingHandlerAdapter] [line : 554 ] :  -
+				Detected @InitBinder methods in globalControllerSetup
+2018-02-25 12:11:13,250 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[],methods=[POST],consumes=[application/json]}" onto public com.web.mvc.response.AddEmployeeResponse com.web.mvc.controller.EmployeeController.addEmployee(com.web.mvc.request.AddEmployeeRequest,org.springframework.validation.BindingResult,org.springframework.validation.Errors)
+2018-02-25 12:11:13,254 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.web.mvc.controller.HomeController.showForm(com.web.mvc.request.AddEmployeeRequest)
+2018-02-25 12:11:13,256 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-25 12:11:13,257 INFO  [restartedMain] [AbstractHandlerMethodMapping$MappingRegistry] [line : 543 ] :  -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-25 12:11:13,274 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/emp] onto handler '/emp'
+2018-02-25 12:11:13,285 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:11:13,285 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:11:13,303 INFO  [restartedMain] [ExceptionHandlerExceptionResolver] [line : 273 ] :  -
+				Detected @ExceptionHandler methods in globalControllerSetup
+2018-02-25 12:11:13,348 INFO  [restartedMain] [AbstractUrlHandlerMapping] [line : 362 ] :  -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-25 12:11:13,793 INFO  [restartedMain] [OptionalLiveReloadServer] [line : 58 ] :  -
+				LiveReload server is running on port 35729
+2018-02-25 12:11:13,839 INFO  [restartedMain] [MBeanExporter] [line : 431 ] :  -
+				Registering beans for JMX exposure on startup
+2018-02-25 12:11:13,865 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-25 12:11:13,876 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Starting ProtocolHandler ["http-nio-8080"]
+2018-02-25 12:11:13,876 INFO  [restartedMain] [DirectJDKLog] [line : 179 ] :  -
+				Using a shared selector for servlet write/read
+2018-02-25 12:11:13,892 INFO  [restartedMain] [TomcatEmbeddedServletContainer] [line : 201 ] :  -
+				Tomcat started on port(s): 8080 (http)
+2018-02-25 12:11:13,898 INFO  [restartedMain] [StartupInfoLogger] [line : 57 ] :  -
+				Started Application in 5.225 seconds (JVM running for 6.061)
+2018-02-25 12:11:51,006 INFO  [RMI TCP Connection(2)-192.168.0.110] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [line : 125 ] :  -
+				Application shutdown requested.
+2018-02-25 12:11:51,006 INFO  [RMI TCP Connection(2)-192.168.0.110] [AbstractApplicationContext] [line : 984 ] :  -
+				Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e5ab804: startup date [Sun Feb 25 12:11:09 IST 2018]; root of context hierarchy
+2018-02-25 12:11:51,009 INFO  [RMI TCP Connection(2)-192.168.0.110] [MBeanExporter] [line : 449 ] :  -
+				Unregistering JMX-exposed beans on shutdown
+2018-02-25 12:11:51,010 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is SHUTTING_DOWN
+2018-02-25 12:11:51,011 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutting down connection manager...
+2018-02-25 12:11:51,015 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Shutting down node engine...
+2018-02-25 12:11:51,020 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Destroying node NodeExtension.
+2018-02-25 12:11:51,021 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] Hazelcast Shutdown is completed in 10 ms.
+2018-02-25 12:11:51,021 INFO  [RMI TCP Connection(2)-192.168.0.110] [Slf4jFactory$Slf4jLogger] [line : 64 ] :  -
+				[localhost]:5701 [dev] [3.7.8] [localhost]:5701 is SHUTDOWN

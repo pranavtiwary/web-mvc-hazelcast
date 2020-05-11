@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: web-mvc-hazelcast
+Implementation-Version: 0.1.0
+Built-By: VUCLIP
+Implementation-Vendor-Id: com.web
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/web-mvc-haze
+ lcast/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,3 @@
+mvn clean install
+echo 'Launching APP HTML Parsing System'
+java -jar target/web-mvc-0.1.0.jar
